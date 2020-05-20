@@ -5,6 +5,7 @@ const home = () => import('../views/Home/home')
 const classify = () => import('../views/Classify/classify')
 const cart = () => import('../views/Cart/cart')
 const profile = () => import('../views/Profile/profile')
+const Detail = () => import('../views/detail/Detail')
 
 Vue.use(Router)
 
@@ -30,6 +31,10 @@ export default new Router({
     {
       path: '/profile',
       component: profile
+    },
+    {
+      path: '/detail/:iid',
+      component: Detail
     }
   ]
 })

@@ -60,6 +60,7 @@ export default {
                 this.scrollConent(-this.currentIndex * this.totalWidth);
             }, this.interval)
         },
+        // 停止定时,清除
         stopTimer: function () {
         window.clearInterval(this.playTimer);
         },
@@ -201,7 +202,6 @@ export default {
             // 3.添加定时器
             this.startTimer();
         }
-
     }
 }
 </script>
@@ -225,18 +225,18 @@ export default {
     }
 
     .indi-item {
-    box-sizing: border-box;
-    width: 8px;
-    height: 8px;
-    border-radius: 4px;
-    background-color: #fff;
-    line-height: 8px;
-    text-align: center;
-    font-size: 12px;
-    margin: 0 5px;
-  }
+        box-sizing: border-box;
+        width: 8px;
+        height: 8px;
+        border-radius: 4px;
+        background-color: #fff;
+        line-height: 8px;
+        text-align: center;
+        font-size: 12px;
+        margin: 0 5px;
+    }
 
-  .indi-item.active {
-    background-color: rgba(212,62,46,1.0);
-  }
+    .indi-item.active {
+        background-color: rgba(212,62,46,1.0);
+    }
 </style>    

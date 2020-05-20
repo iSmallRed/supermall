@@ -24,8 +24,8 @@
 </template>
 
 <script>
-import TabBar from '../../common/tabbar/TabBar'
-import TabBarItem from '../../common/tabbar/TabBarItem'
+import TabBar from 'components/common/tabbar/TabBar'
+import TabBarItem from 'components/common/tabbar/TabBarItem'
 
 export default {
     name: 'MainTabBar',
@@ -37,10 +37,5 @@ export default {
 </script>
 
 <style scoped>
-img{
-		height: 24px;
-		width: 24px;
-		margin-top: 3px;
-		vertical-align: middle;
-	}
+
 </style>

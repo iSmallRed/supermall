@@ -41,7 +41,14 @@ export default {
     flex: 1;
     text-align: center;
     height: 49px;
+		font-size: 14px;
 	}
-	
+	.tar-bar-item img{
+		height: 24px;
+		width: 24px;
+		margin-top: 3px;
+		vertical-align: middle;
+		margin-top: 2px;
+	}
 	
 </style>

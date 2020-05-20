@@ -1,10 +1,16 @@
 <template>
-    <h2>分类</h2>
+    <page-list/>
 </template>
 
 <script>
+// import Home from './chlidCornps/Home'
+import PageList from 'components/common/website/PageList'
 export default {
-    name: 'classify'
+    name: 'classify',
+    components:{
+        // Home,
+        PageList
+    }
 }
 </script>
 

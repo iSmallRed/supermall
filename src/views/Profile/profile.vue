@@ -1,10 +1,15 @@
 <template>
-    <h2>我的</h2>
+    <form-view></form-view>
 </template>
 
 <script>
+import FormView from './chlidCornps/FormView'
+
 export default {
-    name: 'profile'
+    name: 'profile',
+    components: {
+        FormView,
+    }
 }
 </script>
 
